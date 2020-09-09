@@ -2,6 +2,7 @@ const { getMarketSummary } = require("../service/marketsummary-service");
 const { convertCurrency } = require("../service/currency-service");
 const { getLocaleFromRequest } = require("../util/helpers");
 
+// Routes
 const marketsummary = (server) => {
     server.route({
         method: "GET",
